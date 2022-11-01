@@ -29,7 +29,7 @@ async def echo(message: Message):# тип сообщения Message тип со
 if __name__ == '__main__':# постоянный опрос сервера на наличие сообщений
     executor.start_polling(dp)
 
-    # НЕ работает
+
 
 
 
