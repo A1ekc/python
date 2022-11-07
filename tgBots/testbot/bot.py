@@ -23,5 +23,5 @@ async def echo_upper(message: types.Message):#принимаем сообщен�
     if message.text.count(' ') >= 1:# ответит ответным сообщением если в приёмном сообщении будет хотя бы один пробел
         await message.answer(text=message.text.upper())# ответ
 
-if __name__ =='__name__':
+if __name__ =='__main__':
     executor.start_polling(dp)#polling запрос сервера на обновлние данных
