@@ -10,11 +10,11 @@ bot = Bot(TOKEN_API)
 dp = Dispatcher(bot)
 
 
-@dp.message_hendler(comands=['help'])
+@dp.message_handler(comands=['help'])
 async def help_command(message: types.Message):
     await message.reply(text =HELP_COMMAND)
 
-@dp.message_hendler(comands=['start'])
+@dp.message_handler(comands=['start'])
 async def help_command(message: types.Message):
     await message.answer(text = "Добро пожалавать в наш бот")
     await message.delete()# удаляет команду
