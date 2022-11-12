@@ -2,6 +2,7 @@ from aiogram.types import Message#импортируем тип message
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
+import asyncio
 
 from config import BOT_TOKEN
 from config import admin_id# для того чтобы себе отпрвлять сообщения
